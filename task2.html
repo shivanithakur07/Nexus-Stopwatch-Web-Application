@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="task 2.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Nexus</a>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="stopwatch">
+            <div class="display">00:00:00.00</div>
+            <div class="controls">
+                <button id="startBtn" class="btn">Start</button>
+                <button id="pauseBtn" class="btn">Pause</button>
+                <button id="resetBtn" class="btn">Reset</button>
+                <button id="lapBtn" class="btn">Lap</button>
+            </div>
+            <div class="laps"></div>
+        </div>
+    </main>
+
+    <script src="task2.js"></script>
+</body>
+</html>
